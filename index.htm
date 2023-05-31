@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href='stlyes/base.css' />
+	<title>Военкомат Городского огрука Ступино - информационный портал</title>
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="right-side">
+					<a href="" class="icon_link">
+						<img src="images/menu.svg" alt="" class='icon'>
+					</a>
+					<ul class="menu">
+						<li class="menu_item">
+							<a href="#" class="menu_link global popup" onclick='openModalCity()'>Ступино</a>
+						</li>
+					</ul>
+				</div>
+				<div class="left-side">
+					<div class="container">
+						<div class='right-side_line'>
+							<a href="#" class="menu-link global popup-line" onclick='openPopupMenu()'>
+								Горячая линия
+							</a>
+							<a href="/pages/login.html" class="button_login btn">Войти</a>
+							<a href="" class="button_reg btn ">Регистрация</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="popup_menu" id='popup_menu'>
+				<div class="wrapper">
+					<div class='telephones'>
+						<h1 class="telephone_title">Номера горячей линии</h1>
+						<a href="tel:+74966421077" class="telephone popup_anim">+7 (49664) 2-10-77</a>
+						<a href="tel:+74966421468" class="telephone popup_anim">+7 (49664) 2-14-68</a>
+					</div>
+					<a href="" class="btn_exit popup_anim">Назад</a>
+				</div>
+			</div>
+		</div>
+		<div class="modal-city" id='modal-city'>
+			<div class="modal-wrapper">
+				<a href="#" class="close" aria-label='Закрыть выбор региона' role='link' onclick='closeModalCity()'></a>
+				<h2 class='title-h2'>Где вы находитесь?</h2>
+				<div class="text-plain">
+					Вы увидите услуги доступные для вашего региона
+				</div>
+				<div class="location">
+					<div class="current-location bold">
+						Текущее местоположение
+					</div>
+					<div class="location-not-changed">
+						Ступино
+					</div>
+					<div class="region-check">
+						<div class="region-title bold">
+							Выбор региона
+						</div>
+						<div class="balls">
+							<div class="auto">
+								<input type="radio" name='undefined' value='auto' class='radio-input' checked='true'>
+								<label for="">Автоматически
+								</label>
+							</div>
+							<div class="incomplete">
+								<input type="radio" name='undefined' value='auto' class='radio-input' checked='true'>
+								<label for="">Вручную</label>
+							</div>
+						</div> <button class='btn-continue' onclick='closeModalCity()'>Применить</button>
+					</div>
+				</div>
+			</div>
+	</header>
+	<section class="main-section-wrap">
+		<div class="container">
+			<div class="flex-containers">
+				<div class="ngcontent-bhj" tabindex='1'>
+					<a href="#" class='block catalog-link-info'>
+						<div class="ngimage">
+							<img src="images/Gov_services.svg" alt="">
+						</div>
+						<div class="catalog-link">Отделения военкоматов</div>
+					</a>
+				</div>
+				<div class="ngcontent-bhj" tabindex='2'>
+					<a href="#" class='block catalog-link-info'>
+						<div class="ngimage">
+							<img src="images/ic_Fines.svg" alt="">
+						</div>
+						<div class="catalog-link">Военный Юрист</div>
+					</a>
+				</div>
+				<div class="ngcontent-bhj" tabindex='3'>
+					<a href="#" class='block catalog-link-info'>
+						<div class="ngimage">
+							<img src="images/ic_Account.svg" alt="">
+						</div>
+						<div class="catalog-link">Личный кабинет военнослужащего</div>
+					</a>
+				</div>
+				<div class="ngcontent-bhj" tabindex='3'>
+					<a href="#" class='block catalog-link-info'>
+						<div class="ngimage">
+							<img src="images/actions.svg" alt="">
+						</div>
+						<div class="catalog-link">Служба по контракту</div>
+					</a>
+				</div>
+			</div>
+			<div class="news-box">
+					<img src="/images/voennyy-komissariat-informiruet__1_2018-06-8-11-27-31-1024x682-1.jpg" alt="">
+					<div class="text">
+					<a href="#" class="news-link">
+						<span class="text-main">Военкомат в Кашире - адреса , режим работы и телефоны</span>
+					</a>
+					
+					<p class="description">
+						Военкомат представляет собой орган местного самоуправления. Он отвечает за учетно-призывную и военно-мобилизационную деятельность. Полное
+					</p>
+				</div>	
+			</div>
+			<div class="news-box">
+				<img src="/images/voennyy-komissariat-informiruet__1_2018-06-8-11-27-31-1024x682-1.jpg" alt="">
+				<div class="text">
+				<a href="#" class="news-link">
+					<span class="text-main">Военкомат в Ступино - адреса , режим работы и телефоны</span>
+				</a>
+				<p class="description">
+					Военкомат представляет собой орган местного самоуправления. Он отвечает за учетно-призывную и военно-мобилизационную деятельность. Полное
+				</p>
+			</div>
+			</div>
+			<div class="news-box">
+				<img src="/images/voennyy-komissariat-informiruet__1_2018-06-8-11-27-31-1024x682-1.jpg" alt="">
+				<div class="text">
+				<a href="#" class="news-link">
+					<span class="text-main">Военкомат в Серпухове - адреса , режим работы и телефоны</span>
+				</a>
+				<p class="description">
+					Военкомат представляет собой орган местного самоуправления. Он отвечает за учетно-призывную и военно-мобилизационную деятельность. Полное
+				</p>
+			</div>
+		</div>
+		</div>
+		<div class="footer-inner">
+		<div class="container">
+			<p class="footer-text">
+				© 2022 Военкоматы России
+			</p>
+		</div>
+	</div>
+	</section>
+	<script src='script/main.js'></script>
+</body>
+
+</html>
